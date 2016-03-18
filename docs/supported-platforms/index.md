@@ -1,38 +1,36 @@
-# Supported Platforms
+# 支持的平台
 
-The AllJoyn standard core builds and runs on the following platforms. The depth
-and type of testing for each platform varies, so consult the linked release
-information for detailed test information.
+AllJava 标准核心可在以下平台中运行。对不同平台的测试深度和测试类型有所不同，详细信息请参考相关发行版的发布信息。
 
-## 15.09 release
 
-#### Platforms
+## 15.09 发行版
 
-| Platform     | Core | Base Services (planned) | Platform Versions | Toolchain/IDE        |
+#### 平台
+
+| 平台     | 核心 | 基础服务 (planned) | 平台版本 | Toolchain/IDE        |
 |--------------|:----:|:-----------------:|-------------------|-----------------------|
 | Android      |  X   |         X         | JB, KK, LP        | Android SDK, NDK r10e |
 
 
-#### Language Bindings
+#### 语言汇编
 
-The table below lists which language bindings are supported on which platforms
-for Core and Base Services
+下表列出了各个平台对于核心和基础服务所支持的语言汇编。
 
-| Platform     | C++         | C    | Java        | Objective-C |
+| 平台     | C++         | C    | Java        | Objective-C |
 |--------------|-------------|------|-------------|-------------|
 | Android      | Core        | Core | Core        |             |
 
 15.09 Notes:
-* See the [Core 15.09 Release Review](https://wiki.allseenalliance.org/core/core_15.09_release_review) for details about the depth of testing on various platforms.
-* Sun Java 7 is required for Java bindings.
+* 不同平台的具体测试深度请参见 [Core 15.09 Release Review](https://wiki.allseenalliance.org/core/core_15.09_release_review)
+* Java 语言汇编需要 Sun Java 7.
 
 ---
 
-## 15.04 release
+## 15.04 发行版
 
-#### Platforms
+#### 平台
 
-| Platform     | Core | Base Services (planned) | Platform Versions | Toolchain/IDE        |
+| 平台     | 核心 | 基础服务 (planned) | 平台版本 | Toolchain/IDE        |
 |--------------|:----:|:-----------------:|-------------------|----------------------|
 | Windows      |  X   |         X         | Windows 7 to 10   | VS 2012, VS 2013     |
 | Android      |  X   |         X         | JB, KK, LP        | Android SDK, NDK r9d |
@@ -42,12 +40,11 @@ for Core and Base Services
 | Open WRT     |  X   |         X         | BB, CC            | <br>                 |
 
 
-#### Language Bindings
+#### L语言汇编
 
-The table below lists which language bindings are supported on which platforms
-for Core and Base Services
+下表列出了各个平台对于核心和基础服务所支持的语言汇编
 
-| Platform     | C++         | C    | Java        | Objective-C |
+| 平台     | C++         | C    | Java        | Objective-C |
 |--------------|-------------|------|-------------|-------------|
 | Windows      | Core, Base  | Core | Core        |             |
 | Android      | Core, Base  | Core | Core, Base  |             |
